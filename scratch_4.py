@@ -53,7 +53,6 @@ def what_time(city):
     else:
         return f"<не могу определить время в городе {city}"
 
-
 def process_anfisa(query):
     if query == 'сколько у меня друзей?':
         count_string = format_count_friends(len(DATABASE))
